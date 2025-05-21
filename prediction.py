@@ -5,12 +5,12 @@ import numpy as np
 import random
 
 # Load model and encoders
-model = joblib.load("E:/NaaN Mudhalvan/random_forest_model.pkl")
-label_encoders = joblib.load("E:/NaaN Mudhalvan/label_encoders.pkl")
-scaler = joblib.load("E:/NaaN Mudhalvan/scaler.pkl")
-feature_order = joblib.load("E:/NaaN Mudhalvan/feature_order.pkl")
+model = joblib.load("random_forest_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
+scaler = joblib.load("scaler.pkl")
+feature_order = joblib.load("feature_order.pkl")
 
-data = pd.read_csv("E:/NaaN Mudhalvan/Disease_symptom_and_patient_profile_dataset.csv")
+data = pd.read_csv("Disease_symptom_and_patient_profile_dataset.csv")
 data.columns = data.columns.str.strip()
 
 st.set_page_config(page_title="🧠 AI Health Oracle", layout="centered")
