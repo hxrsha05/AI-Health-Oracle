@@ -1,7 +1,85 @@
 # 🧬 AI Health Oracle – Intelligent Disease Prediction System
 
-AI Health Oracle is a smart diagnostic assistant that leverages patient symptom data and personal health indicators to predict potential diseases. By analyzing key features such as fever, fatigue, age, gender, blood pressure, and cholesterol levels, the system provides instant diagnostic feedback tailored to the individual's health profile.
+**AI Health Oracle** is a smart diagnostic assistant powered by artificial intelligence, built to help users get early insights into possible diseases based on their symptoms and personal health metrics. It bridges the gap between initial symptom observation and professional medical consultation.
 
-The model is trained on curated healthcare data, ensuring high accuracy and reliability in predictions. Designed for accessibility and simplicity, this tool empowers users to gain early insights into their health conditions, helping bridge the gap between symptoms and professional consultation. It also provides proactive health tips to promote better lifestyle decisions and preventive care.
+---
 
-Ideal for educational, experimental, or early diagnostic use.
+## 🚀 Features
+
+- ✅ Predicts potential diseases using symptom inputs
+- ✅ Personalized health analysis using factors like:
+  - Age
+  - Gender
+  - Fever
+  - Fatigue
+  - Blood Pressure
+  - Cholesterol Levels
+- ✅ Instant AI-generated diagnostic feedback
+- ✅ Health tips for lifestyle improvement and disease prevention
+- ✅ User-friendly interface for easy access
+- ✅ Lightweight, fast, and accessible on any device
+
+---
+
+## 🏥 Use Case
+
+This system is designed for:
+
+- 🧪 **Educational purposes**
+- 🧫 **Early diagnostic support**
+- 👨‍⚕️ **Health experimentation and research**
+- 🏠 **Personal health awareness**
+
+> ⚠️ **Disclaimer**: AI Health Oracle is not a replacement for professional medical advice. It is intended for informative and early awareness purposes only.
+
+---
+
+## 📊 How It Works
+
+1. **Input**: The user provides symptom data and basic health indicators via the interface.
+2. **Processing**: The backend model analyzes the data using a trained classification algorithm.
+3. **Prediction**: The system outputs a likely disease prediction along with suggested preventive measures.
+4. **Advice**: Tailored health tips based on risk factors are displayed to promote preventive care.
+
+---
+
+## 🧠 AI Model
+
+- **Training Data**: Curated medical datasets with patient symptoms and diagnoses
+- **Model Type**: Supervised Machine Learning (e.g., Random Forest / Decision Tree / Logistic Regression)
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score
+- **Output**: Disease class with probability/confidence level
+
+---
+
+## 🛠️ Tech Stack
+
+| Component     | Technology           |
+|---------------|----------------------|
+| Frontend      | Streamlit  |
+| Backend       | Python  |
+| Model         | Scikit-learn / TensorFlow / PyTorch |
+| Data Handling | Pandas / NumPy       |
+| Deployment    | Render / Localhost |
+
+---
+
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/hxrsha05/AI-Health-Oracle.git
+cd ai-health-oracle
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+```
+
+## Author
+Developed by Sri Harshavardhan Palaniswamy J  
+📧 sriharshajay@gmail.com  
+🔗 LinkedIn - www.linkedin.com/in/sri-harshavardhan-palaniswamy-j-618212372  
+🐙 GitHub - https://github.com/hxrsha05  
