@@ -60,7 +60,7 @@ This system is designed for:
 | Backend       | Python  |
 | Model         | Scikit-learn / TensorFlow / PyTorch |
 | Data Handling | Pandas / NumPy       |
-| Deployment    | Render / Localhost |
+| Deployment    | Render |
 
 ---
 
@@ -83,3 +83,4 @@ Developed by Sri Harshavardhan Palaniswamy J
 📧 sriharshajay@gmail.com  
 🔗 LinkedIn - www.linkedin.com/in/sri-harshavardhan-palaniswamy-j-618212372  
 🐙 GitHub - https://github.com/hxrsha05  
+
