@@ -1,91 +1,115 @@
-# 🧬 AI Health Oracle – Intelligent Disease Prediction System
+<div align="center">
 
-**AI Health Oracle** is a smart diagnostic assistant powered by artificial intelligence, built to help users get early insights into possible diseases based on their symptoms and personal health metrics. It bridges the gap between initial symptom observation and professional medical consultation.
+# AI Health Oracle
 
----
+**An intelligent disease prediction system for early health insights using machine learning.**
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
-- ✅ Predicts potential diseases using symptom inputs
-- ✅ Personalized health analysis using factors like:
-  - Age
-  - Gender
-  - Fever
-  - Fatigue
-  - Blood Pressure
-  - Cholesterol Levels
-- ✅ Instant AI-generated diagnostic feedback
-- ✅ Health tips for lifestyle improvement and disease prevention
-- ✅ User-friendly interface for easy access
-- ✅ Lightweight, fast, and accessible on any device
+</div>
 
 ---
 
-## 🏥 Use Case
+## Overview
 
-This system is designed for:
+AI Health Oracle is a machine learning–driven diagnostic assistant designed to provide early insights into potential diseases based on user-reported symptoms and health parameters.
 
-- 🧪 **Educational purposes**
-- 🧫 **Early diagnostic support**
-- 👨‍⚕️ **Health experimentation and research**
-- 🏠 **Personal health awareness**
+It enables users to understand possible health risks and encourages informed decision-making before seeking professional medical consultation.
 
-> ⚠️ **Disclaimer**: AI Health Oracle is not a replacement for professional medical advice. It is intended for informative and early awareness purposes only.
-
----
-
-## 📊 How It Works
-
-1. **Input**: The user provides symptom data and basic health indicators via the interface.
-2. **Processing**: The backend model analyzes the data using a trained classification algorithm.
-3. **Prediction**: The system outputs a likely disease prediction along with suggested preventive measures.
-4. **Advice**: Tailored health tips based on risk factors are displayed to promote preventive care.
+```
+User Input → Data Processing → Model Prediction → Risk Analysis → Health Recommendations
+```
 
 ---
 
-## 🧠 AI Model
+## Features
 
-- **Training Data**: Curated medical datasets with patient symptoms and diagnoses
-- **Model Type**: Supervised Machine Learning (e.g., Random Forest / Decision Tree / Logistic Regression)
-- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score
-- **Output**: Disease class with probability/confidence level
+### Core Functionality
+- Disease prediction based on symptom inputs
+- Personalized analysis using health indicators such as age, gender, blood pressure, and cholesterol
+- Machine learning–based classification for accurate predictions
+- Instant diagnostic feedback with confidence levels
 
----
-
-## 🛠️ Tech Stack
-
-| Component     | Technology           |
-|---------------|----------------------|
-| Frontend      | Streamlit  |
-| Backend       | Python  |
-| Model         | Scikit-learn / TensorFlow / PyTorch |
-| Data Handling | Pandas / NumPy       |
-| Deployment    | Render |
+### User Experience
+- Clean and accessible interface built with Streamlit
+- Fast and lightweight execution
+- Actionable health tips for prevention and lifestyle improvement
 
 ---
 
-## 🔧 Installation
+## Use Cases
+
+- Educational demonstrations of machine learning in healthcare
+- Early-stage diagnostic assistance
+- Health data experimentation and research
+- Personal health awareness and monitoring
+
+> Disclaimer: This system is intended for informational purposes only and does not replace professional medical advice.
+
+---
+
+## How It Works
+
+1. User provides symptoms and health-related inputs through the interface  
+2. The system preprocesses and structures the input data  
+3. A trained machine learning model analyzes the data  
+4. The system predicts a likely disease with a confidence score  
+5. Preventive suggestions and health recommendations are displayed  
+
+---
+
+## AI Model
+
+- Training Data: Curated medical datasets containing symptoms and diagnoses  
+- Model Type: Supervised learning (Random Forest, Decision Tree, Logistic Regression)  
+- Evaluation Metrics: Accuracy, Precision, Recall, F1-Score  
+- Output: Predicted disease with associated probability  
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|------|-----------|
+| Frontend | Streamlit |
+| Backend | Python |
+| Machine Learning | Scikit-learn / TensorFlow / PyTorch |
+| Data Processing | Pandas, NumPy |
+| Deployment | Render |
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10+
+
+### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/hxrsha05/AI-Health-Oracle.git
 cd ai-health-oracle
 
-# Install required packages
 pip install -r requirements.txt
+```
 
-# Run the app
+---
+
+## Running the Application
+
+```bash
 python app.py
 ```
+
+---
+
+## Deployment
+
+https://healthoracle.onrender.com/
+
+---
+
 ## Author
-Developed by Sri Harshavardhan Palaniswamy J  
-📧 sriharshajay@gmail.com  
-🔗 LinkedIn - www.linkedin.com/in/sri-harshavardhan-palaniswamy-j-618212372  
-🐙 GitHub - https://github.com/hxrsha05 
-🔗 Deployed Link - https://healthoracle.onrender.com/
 
-
-
-
-
-
+Sri Harshavardhan Palaniswamy J  
